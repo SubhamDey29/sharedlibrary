@@ -7,5 +7,6 @@ def call()
         else if(params.Action=='Destroy'){
         sh("terraform destroy -auto-approve");
         }
+        echo "hello"
     }
        
