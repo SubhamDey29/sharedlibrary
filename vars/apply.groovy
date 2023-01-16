@@ -1,6 +1,7 @@
-def call(Map args){
+def call(string name){
   //input(message: 'Apply Terraform ?')
-  def myparameters=vars.get("name",null);
-  echo "$param.myparameters"
+  echo "Hello ${name}"
+  
+  
 }
   
